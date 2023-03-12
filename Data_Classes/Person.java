@@ -37,3 +37,10 @@ public class Person {
         this.name = name;
     }
 }
+
+class testPerson{
+    public static void main(String[] args) {
+        Person[] people = new Person[10];
+        people[0] = new Person();
+    }
+}
