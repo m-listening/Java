@@ -38,7 +38,7 @@ public class Person {
     }
 }
 
-class testPerson{
+class testPerson {
     public static void main(String[] args) {
         Person[] people = new Person[10];
         people[0] = new Person();

@@ -6,6 +6,13 @@ public class Car2 {
     private String engine;
     private int speed;
 
+    public Car2(String color, String engine) {
+        this.color = color;
+        this.engine = engine;
+    }
+
+    public Car2() {}
+
     public int speedUp(int speedUp) {
         return speed += speedUp;
     }
