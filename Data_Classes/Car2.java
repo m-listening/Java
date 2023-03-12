@@ -6,12 +6,12 @@ public class Car2 {
     private String engine;
     private int speed;
 
-    public void speedUp(int speedUp) {
-        this.speed += speedUp;
+    public int speedUp(int speedUp) {
+        return speed += speedUp;
     }
 
-    public void speedDown(int speedDown) {
-        this.speed -= speedDown;
+    public int speedDown(int speedDown) {
+        return speed -= speedDown;
     }
 
     public void setColor(String color) {
