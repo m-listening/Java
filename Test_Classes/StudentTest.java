@@ -28,8 +28,8 @@ public class StudentTest {
         student3.setAverageScoreForeignLang(4.2);
 
         System.out.println("Середній біл студентів:");
-        System.out.println(student1.getFirstName() + " " + student1.getLastName() + ": " + student1.getAverageScoreFromAll());
-        System.out.println(student2.getFirstName() + " " + student2.getLastName() + ": " + student2.getAverageScoreFromAll());
-        System.out.println(student3.getFirstName() + " " + student3.getLastName() + ": " + student3.getAverageScoreFromAll());
+        System.out.println(student1.showAllInfo());
+        System.out.println(student2.showAllInfo());
+        System.out.println(student3.showAllInfo());
     }
 }

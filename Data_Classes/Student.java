@@ -67,4 +67,8 @@ public class Student {
     public String getFirstName() {
         return firstName;
     }
+
+    public String showAllInfo() {
+        return firstName + " " + lastName + " " + getAverageScoreFromAll();
+    }
 }
