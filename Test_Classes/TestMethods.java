@@ -13,6 +13,7 @@ public class TestMethods {
 }
 
 class testForTestMethods {
+
     public static void main(String[] args) {
 
         System.out.println(TestMethods.averageSum(3, 3, 4));
