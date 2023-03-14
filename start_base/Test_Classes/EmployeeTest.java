@@ -1,6 +1,6 @@
-package Test_Classes;
+package start_base.Test_Classes;
 
-import Data_Classes.Employee;
+import start_base.Data_Classes.Employee;
 
 public class EmployeeTest {
     public static void main(String[] args) {

@@ -1,9 +1,10 @@
-package Test_Classes;
+package start_base.Test_Classes;
 
-import Data_Classes.Car2;
+import start_base.Data_Classes.Car2;
+
 
 public class CarTest {
-
+    int salary;
     public static void main(String[] args) {
 
         Car2 car = new Car2();

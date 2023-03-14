@@ -1,4 +1,4 @@
-package Data_Classes;
+package start_base.Data_Classes;
 
 public class Student {
     private final String firstName;

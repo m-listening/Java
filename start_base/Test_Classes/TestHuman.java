@@ -1,7 +1,7 @@
-package Test_Classes;
+package start_base.Test_Classes;
 
-import Data_Classes.Car2;
-import Data_Classes.Human;
+import start_base.Data_Classes.Car2;
+import start_base.Data_Classes.Human;
 
 public class TestHuman {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package Test_Classes;
+package start_base.Test_Classes;
 
-import Data_Classes.Student;
+import start_base.Data_Classes.Student;
 
 public class StudentTest {
 
